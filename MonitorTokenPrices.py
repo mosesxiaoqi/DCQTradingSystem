@@ -74,11 +74,6 @@ def monitor_token_price(token_mint_address):
     print(f"开始监控代币: {token_mint_address}")
     asyncio.run(get_token_price(token_mint_address))
 
-
-
-
-
-
 # 异步函数：监控 Raydium 池价格
 async def monitor_raydium_price(pool_address):
     try:
